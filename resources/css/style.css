@@ -1,0 +1,356 @@
+/*=====================*/
+/* FONTS*/
+/*=====================*/
+
+
+
+@font-face {
+    src: url('../fonts/SEGOEUI.TTF');
+    font-family: SEGOEUI.TTF, sans-serif;
+}
+
+/*=====================*/
+/* BASIC SETUP*/
+/*=====================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: SEGOEUI.TTF, sans-serif;
+    font-size: 20px;
+    color: #fff;
+    background-color: #fff;
+    text-rendering: optimizeLegibility;
+    text-align: center;
+}
+
+.row {
+    max-width: 980px;
+    margin: auto;
+    padding: 0 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*=====================*/
+/* REUSABLE COMPONENTS*/
+/*=====================*/
+header,
+section {
+    padding: 120px;
+}
+
+h1,
+h2 {
+    font-size: 400%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-size: 90% margin: 10px 0;
+    color: #000;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.btn {
+    margin-top: 30px;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    color: #fff;
+    background-color: #7b77c9;
+    padding: 15px 30px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: .5s;
+    margin-left: -50px;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    background-color: #19173b;
+}
+
+/*=====================*/
+/* HERO SECTION*/
+/*=====================*/
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('img/hero-bg.jpg') no-repeat center / cover;
+    height: 100vh;
+    color: #fff;
+}
+
+.logo {
+    height: 85px;
+}
+
+.hero-text-box {
+    width: 980px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-text-box p {
+    font-size: 90%;
+    width: 70%;
+    margin: auto;
+
+}
+
+.scroll-down {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 60px;
+    margin: auto;
+
+}
+
+.scroll-down a i {
+    color: #fff;
+    border: 1px solid #fff;
+    width: 30px;
+    height: 30px;
+    font-size: 100%;
+    border-radius: 50%;
+    line-height: 30px;
+}
+
+/*=====================*/
+/* ABOUT SECTION*/
+/*=====================*/
+.about p {
+    color: #000;
+}
+
+.about h2 {
+    margin: 60px 0;
+    color: #000;
+}
+
+.grid-container .about-box h3 {
+    color: #000;
+}
+
+.about-me p {
+    font-size: 140%;
+    line-height: 130%;
+}
+
+.about-box {
+    text-align: left;
+}
+
+.about-box p {
+    font-size: 90%;
+    color: #050505;
+    line-height: 150%;
+}
+
+/*=====================*/
+/* WORK SECTION*/
+/*=====================*/
+.work img:hover {
+    display: block;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.work .btn {
+    background: #7b77c9;
+    border: 1px solid #7b77c9;
+    padding: 10px 25px;
+    border-radius: 5px solid #7b77c9;
+    margin-left: -10px;
+
+}
+
+.work {
+    background: #050505;
+
+}
+
+.work h3 {
+    font-size: 105%;
+}
+
+.work span {
+    font-size: 70%;
+    color: #818baa;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.grid-item h3 {
+    color: #fff;
+}
+
+.filter {
+    margin: 45px 0;
+}
+
+.filter ul {
+    margin: 0;
+    padding: 0;
+}
+
+.filter ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.filter ul li a {
+    color: #fff;
+    margin: 0 10px;
+    border-bottom: 2px solid transparent;
+}
+
+.filter ul li a:hover {
+    border-color: #fff;
+}
+
+.portfolio-box {
+    background: red;
+}
+
+.portfolio-box img {
+    width: 100%;
+    display: block;
+    opacity: 0.7;
+}
+
+/*=====================*/
+/* PHOTOGRAPHY SECTION*/
+/*=====================*/
+.pg h2 {
+    color: #000;
+}
+
+.pg p {
+    color: #000;
+    font-size: 150%;
+    color: #888a8b;
+    width: 75%;
+    margin: 30px auto;
+}
+
+.pg img:hover {
+    display: block;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.pg {
+    background: #fff;
+}
+
+.pg .btn-full {
+    background: #7b77c9;
+    color: #fff;
+    border: 1px solid #7b77c9;
+    border-radius: 5px solid;
+    padding: 10px 30px;
+
+
+}
+
+/* my code is here */
+
+
+
+
+/*=====================*/
+/* SUBSCRIBE SECTION*/
+/*=====================*/
+.subscribe {
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('img/hero-bg.jpg') no-repeat center / cover;
+    padding: 120px 0;
+}
+
+.infinity {
+    height: 35px;
+}
+
+.subscribe p {
+    font-size: 90%;
+    width: 50%;
+    margin: 35px auto;
+
+}
+
+input[type="email"] {
+    border: 1px solid #fff;
+    font-size: 90%;
+    padding: 15px 40px;
+    border-radius: 5px;
+    width: 380px;
+    cursor: pointer;
+    color: #7b77c9;
+
+}
+
+input[type="submit"] {
+    border: 1px solid #7b77c9;
+    font-size: 90%;
+    padding: 15px 40px;
+    border-radius: 5px;
+    width: 380px;
+    cursor: pointer;
+    background-color: #7b77c9;
+
+}
+
+form::placeholder {
+    color: #c8c8c8;
+}
+
+/*=====================*/
+/* FOOTER SECTION*/
+/*=====================*/
+.copyright {
+    color: #000;
+    margin-top: 60px;
+    font-size: 50%;
+}
+
+.footer {
+    padding: 120px;
+}
+
+.footer ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+.footer ul li {
+    display: inline-block;
+}
+
+.footer ul li a {
+    color: red;
+    font-size: 300%;
+    margin: 0 40px;
+}
+
+.footer ul li:hover a {
+    color: green;
+}
